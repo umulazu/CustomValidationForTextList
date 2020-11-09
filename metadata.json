@@ -1,0 +1,16 @@
+{
+  "id": "89946b0e-e1ba-4e3f-85bc-c0d8a440e5b9",
+  "name": "TextListWithCustomValidation",
+  "description": "",
+  "baseQuestionType": "MultiForm",
+  "disableDefaultRendering": true,
+  "iconUrl": "design/icon.svg",
+  "designEntryPoint": "design/index.html",
+  "runtimeEntryPoint": {
+    "component": "runtime/index.js",
+    "deps": {
+      "scripts": [],
+      "styles": []
+    }
+  }
+}

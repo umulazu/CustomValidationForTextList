@@ -1,0 +1,14 @@
+{
+  "name": "CustomValidationForQuestions",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build-runtime && npm run build-design",
+    "build-runtime": "rm -rf runtime/dist && parcel build ./runtime/src/index.js --out-dir runtime/dist --no-source-maps",
+    "build-design": "rm -rf design/dist && parcel build ./design/index.html --out-dir design/dist --no-source-maps --public-url ./"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "prettier": "2.1.2"
+  }
+}

@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+
+.idea
+.cache
+
+node_modules
+dist
